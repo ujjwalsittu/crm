@@ -26,7 +26,7 @@ bench get-app crm --branch develop
 
 bench new-site crm.growthia.tech \
     --force \
-    --mariadb-root-password 04c35bbd2989ca734e665395f9c727a0 \
+    --mariadb-root-password singh#4343 \
     --admin-password admin \
     --no-mariadb-socket
 
