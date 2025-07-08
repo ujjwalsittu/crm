@@ -24,16 +24,16 @@ sed -i '/watch/d' ./Procfile
 
 bench get-app crm --branch develop
 
-bench new-site crm.localhost \
+bench new-site crm.growthia.tech \
     --force \
     --mariadb-root-password 123 \
     --admin-password admin \
     --no-mariadb-socket
 
-bench --site crm.localhost install-app crm
-bench --site crm.localhost set-config developer_mode 1
-bench --site crm.localhost clear-cache
-bench --site crm.localhost set-config mute_emails 1
-bench use crm.localhost
+bench --site crm.growthia.tech install-app crm
+bench --site crm.growthia.tech set-config developer_mode 1
+bench --site crm.growthia.tech clear-cache
+bench --site crm.growthia.tech set-config mute_emails 1
+bench use crm.growthia.tech
 
 bench start
