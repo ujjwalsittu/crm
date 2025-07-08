@@ -1,4 +1,3 @@
-version: "3.7"
 name: crm
 services:
   mariadb:
@@ -9,7 +8,7 @@ services:
       - --skip-character-set-client-handshake
       - --skip-innodb-read-only-compressed # Temporary fix for MariaDB 10.6
     environment:
-      MYSQL_ROOT_PASSWORD: singh#4343
+      MYSQL_ROOT_PASSWORD: 4343
     volumes:
       - mariadb-data:/var/lib/mysql
 
